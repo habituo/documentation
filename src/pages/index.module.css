@@ -1,0 +1,38 @@
+.heroBanner {
+  padding: 8rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-image: url("../../static/img/section-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heroTitle {
+  font-size: 4rem;
+  line-height: 4rem;
+  color: #ffffff;
+  text-shadow: 0px 0px 15px rgba(0, 0, 0, .3);
+}
+
+.heroSubtitle {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  color: #ffffff;
+  text-shadow: 0px 0px 15px rgba(0, 0, 0, .3);
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  margin-top: 4rem;
+}
