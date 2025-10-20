@@ -4,10 +4,6 @@
   <img alt="Habituo" src="https://github.com/habituo/habituo/blob/main/src/assets/images/habituo-logo.png?raw=true" height="34">
 </picture></h1>
 
-**Habituo** es un tracker de hábitos diseñado para ayudarte a organizar y mejorar tus rutinas diarias. Con Habituo puedes registrar hábitos, seguir tu progreso, recibir recordatorios y visualizar estadísticas para mantener tu motivación y constancia.
-
-## Documentación
-
 La documentación de Habituo se encuentra en formato Markdown y puede ser consultada para entender el funcionamiento del proyecto y cómo utilizarlo. Para probar la documentación localmente, puedes abrir los archivos en tu editor de texto o usar cualquier generador de documentación estática que soporte Markdown.
 
 La documentación en línea se puede consultar en:  
