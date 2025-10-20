@@ -4,38 +4,35 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: '🌱 Crea hábitos que perduren',
+    Svg: require('@site/static/img/calendar.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Habituo te ofrece una plataforma clara, intuitiva y visual para ayudarte a mantener la constancia y ver tu progreso día a día.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: '⏱️ Tu progreso, en tus manos',
+    Svg: require('@site/static/img/diversity.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Habituo te muestra de forma sencilla cómo avanzas hacia tus metas, ayudándote a mantener la motivación en todo momento.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: '🎨 Diseña tu experiencia',
+    Svg: require('@site/static/img/career.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Personaliza colores, tipografía, bordes y modo oscuro o claro para crear un entorno que te inspire cada vez que entres.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">

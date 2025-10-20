@@ -2,68 +2,105 @@
 sidebar_position: 1
 ---
 
-# ¿What is it Habituo?
+# What is Habituo?
 
-¡Bienvenido a la **documentación de Habituo**!
+Welcome to the **Habituo documentation**!
 
-En este espacio te explicamos todo lo que necesitas saber sobre cómo usar nuestro **tracker de hábitos**, cómo personalizar tu experiencia y cómo sacar el máximo provecho de las herramientas que ponemos a tu disposición para ayudarte a alcanzar tus metas. Habituo no es solo una aplicación o una simple web, es una plataforma pensada para acompañarte en tu viaje de automejoramiento y productividad, ayudándote a crear y mantener hábitos positivos.
+Here you will find everything you need to learn how to use our **habit tracker**: how to get started, how to customize your routines, and how to make the most of the tools we've created to help you achieve your goals.  
 
-## ¿Qué es un tracker de hábitos?
+**Habituo** is more than just an application; it’s a companion that guides you through your personal growth and productivity journey, helping you create and maintain positive habits that truly fit your life.
 
-Un *tracker de hábitos* es una herramienta que te permite seguir de cerca tus hábitos diarios, establecer metas específicas y visualizar tu progreso. Con Habituo, podrás **gestionar tus rutinas** de forma sencilla, con recordatorios personalizados y un dashboard visual que te mantendrá motivado mientras trabajas en tus objetivos.
+---
 
-En Habituo, los hábitos pueden ser tan simples como beber suficiente agua al día, hacer ejercicio, meditar, o tan complejos como aprender un nuevo idioma. La idea es que puedas registrar **cualquier actividad** que desees convertir en un hábito constante, y que puedas controlar el progreso de manera eficiente.
+## What is a Habit Tracker?
 
-## ¿Qué es la personalización de hábitos?
+A *habit tracker* (or **habit log**) is a tool that helps you keep track of your routines, set goals, and monitor your progress over time.  
 
-Habituo se distingue por ofrecer un alto nivel de personalización. Cada usuario puede adaptar los hábitos a su propio ritmo, estilo de vida y metas. Puedes personalizar los siguientes aspectos:
+With **Habituo**, you can **create, organize, and follow your habits** in a simple and visual way. Plus, you'll have personalized reminders to help you stay consistent.
 
-* **Frecuencia**: ¿Qué tan seguido quieres realizar el hábito? Habituo permite establecer hábitos diarios, semanales, mensuales o incluso con intervalos personalizados.
-* **Unidades de medida**: Si estás siguiendo un hábito como correr, puedes registrar la distancia recorrida, el tiempo invertido o las calorías quemadas.
-* **Notificaciones personalizadas**: Decide a qué hora recibirás recordatorios, ya sea por correo electrónico o en tu dispositivo móvil.
-Metas y sub-metas: Puedes dividir un hábito grande en pequeñas metas alcanzables, facilitando la organización y haciendo que cada paso sea más satisfactorio.
+Habits can be as simple as drinking more water, reading daily, exercising, or meditating, or as complex as learning a new language or improving your finances. The idea is that you can log **anything you want to turn into a habit** and track your advancement step-by-step.
 
-## ¿Cómo funciona Habituo?
+---
 
-Habituo está diseñado para ser fácil de usar, flexible y adaptable a las necesidades de cada usuario. A través de nuestra interfaz web, los usuarios pueden:
+## Customize Your Habits Your Way
 
-1. **Crear y personalizar hábitos**: Añadir hábitos, establecer metas, definir la frecuencia y tipo de medida (distancia, tiempo, repeticiones) y decidir si desean recibir recordatorios diarios o semanales.
-2. **Categorizar tus hábitos**: Puedes organizar tus hábitos en diferentes áreas de tu vida, como “Salud”, “Trabajo”, “Bienestar”, “Desarrollo Personal”, entre otros. Esto te permite tener un control más estructurado de todas tus rutinas.
-3. **Visualización del progreso**: Habituo ofrece gráficos interactivos para que puedas ver tu evolución de forma clara y atractiva. Las estadísticas te ayudarán a identificar patrones, mejorar tu rendimiento y mantenerte motivado a lo largo del tiempo.
-4. **Notificaciones y recordatorios**: Nuestro sistema de notificaciones personalizables asegura que no olvides tus hábitos, enviándote recordatorios según la frecuencia que elijas. Ya sea por email o notificación push, tu progreso siempre estará presente.
-5. **Sincronización en tiempo real con Firebase**: Todos tus datos están sincronizados automáticamente entre dispositivos, asegurando que nunca pierdas información importante, sin importar dónde accedas a Habituo.
+One of the things that makes Habituo special is its level of customization. Every person has their own pace and goals, which is why you decide **how** and **when** to work on your habits.  
 
-## ¿Qué es la sincronización con Firebase?
+You can customize aspects such as:
 
-Firebase es la plataforma que utilizamos para gestionar la autenticación de usuarios, almacenar los hábitos y sincronizar los datos en tiempo real. Gracias a Firebase, tus hábitos estarán siempre disponibles en todos los dispositivos desde los que accedas a Habituo. Los usuarios no necesitan preocuparse por la seguridad de sus datos, ya que Firebase asegura que la información esté protegida con altos estándares de seguridad.
+- **Frequency:** choose whether you want to do it every day, once a week, monthly, or based on a custom interval.  
+- **Units of Measurement:** if your habit is running, you can log the distance, time, or calories burned.  
+- **Reminders:** set the time you want to receive your notifications, whether on your mobile or via email.  
+- **Goals and Sub-goals:** break down your big objectives into smaller steps to maintain motivation and see your achievements more easily.  
+
+---
+
+## How Does Habituo Work?
+
+Habituo is designed to be **easy to use and adaptable to you**. From the web platform, you can:
+
+1. **Create and Customize Your Habits:** add new habits, define their frequency, units of measurement, and reminders.  
+2. **Organize Them by Area:** group your habits according to your priorities, such as "Health," "Work," "Wellbeing," or "Personal Development."  
+3. **View Your Progress:** access a visual dashboard with statistics and charts that show you how you're advancing over time.  
+4. **Receive Reminders:** the system will notify you so you don't forget your habits, based on the frequency you've chosen.  
+5. **Automatic Synchronization:** your data is saved and updated in real-time, so you can access it from any device.  
+
+---
+
+## Why Does it Sync with Firebase?
+
+Firebase is the technology we use to save your habits and keep everything synchronized across your devices.  
+
+This means that **you will never lose your data**, and you can access your habits from anywhere. Furthermore, your data is protected under high security standards, so you don't have to worry about its privacy.
 
 <figure>
-  <img src="https://firebase.google.com/static/docs/cloud-messaging/images/diagram-FCM.png?hl=es-419" alt="Diagrama de flujo de Firebase"/>
-  <figcaption align="center">Diagrama de flujo de Firebase</figcaption>
+  <img src="https://firebase.google.com/static/docs/cloud-messaging/images/diagram-FCM.png?hl=es-419" alt="Firebase Flow Diagram"/>
+  <figcaption align="center">Firebase Flow Diagram</figcaption>
 </figure>
 
-### Interoperabilidad y acceso
+---
 
-Si bien Habituo es una plataforma web, nuestra visión es hacerla accesible desde cualquier dispositivo móvil. En el futuro, planeamos lanzar aplicaciones para iOS y Android, permitiendo a los usuarios acceder a sus hábitos y estadísticas sin importar dónde se encuentren.
+### Accessibility and Future
 
-## Mantenimiento de tus hábitos
+Although Habituo currently operates as a **web platform**, our goal is to bring the experience to mobile devices as well.  
 
-Crear y mantener hábitos no es fácil, pero con Habituo, tienes un sistema organizado que te ayuda a mantenerte en el camino. Las herramientas fundamentales, como los recordatorios y la visualización de tu progreso, están integradas para facilitarte este proceso. Además, el poder de personalización de tus hábitos hace que puedas adaptarlos a tus cambios de vida y objetivos.
+In the future, you will be able to use **Habituo on Android and iOS**, to have your habits with you, wherever you are.
 
-## ¿Cómo se financia Habituo?
+---
 
-Habituo está completamente libre de coste para los usuarios que desean realizar un seguimiento básico de sus hábitos. Sin embargo, ofrecemos **opciones premium** para quienes busquen más funcionalidades, como *estadísticas avanzadas*, más *categorías de hábitos* y *personalización de recordatorios*. La plataforma también ofrece un **sistema de donaciones** para mantener la calidad del servicio y seguir mejorando.
+## Maintain Your Habits with Ease
 
-Apóyanos en [Patreon](http://patreon.com/habituo), nos ayudarás a traer nuevas mejoras en el futuro.
+We know that creating new habits isn't always easy, but with Habituo, you'll have a system that supports you step-by-step.  
 
-## ¿Por qué elegir Habituo?
+The **tracking, reminder, and statistics** tools are designed to make maintaining your routines clearer, simpler, and more motivating. And best of all: you can adapt it to your changing pace and personal goals.
 
-Habituo es más que una simple herramienta de seguimiento; es un sistema diseñado para ayudarte a crecer, alcanzar tus metas y mejorar tu bienestar. La plataforma se adapta a tus necesidades y te proporciona un espacio personalizado donde puedes concentrarte en lo que realmente importa: mejorar cada día.
+---
 
-## Conclusión
+## How is Habituo Financed?
 
-Habituo es el **compañero perfecto** para aquellos que buscan una herramienta completa para mejorar sus hábitos y alcanzar sus metas. Ya sea que desees establecer una rutina de ejercicio regular, **aumentar tu productividad** en el trabajo o mejorar tu bienestar personal, Habituo te ofrece todo lo que necesitas para hacerlo de manera efectiva y personalizada. ¡Comienza tu camino hacia una vida más equilibrada y productiva con Habituo!
+Habituo offers a **free** version for those who want to start tracking their habits simply.  
 
-<br />
+We also have two **upgrade versions** (or 'premium versions'), which include extra features such as:  
+- Advanced statistics
+- More habit creation
+- Reminder customization
 
-> Última actualización 12 de Febrero, 2025
+Additionally, you can support us through [Patreon](http://patreon.com/habituo) to help us continue improving and developing new features.
+
+---
+
+## Why Choose Habituo?
+
+Because **it's not just a habit tracker**; it's a tool to help you grow, improve every day, and feel more in control of your life.  
+
+Habituo adapts to you, motivates you, and turns the process of creating habits into something enjoyable, organized, and visual.
+
+---
+
+## Conclusion
+
+Habituo is the **ideal companion** for anyone looking to improve their routine and achieve their personal or professional goals.  
+
+Whether you want to **maintain an exercise routine, boost your productivity, or take care of your wellbeing**, Habituo provides all the tools to make it easy, motivating, and at your own pace.  
+
+✨ **Start your journey toward a more balanced and productive life with Habituo today.**

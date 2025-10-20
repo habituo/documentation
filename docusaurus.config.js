@@ -2,13 +2,13 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 const config = {
   title: 'Todo sobre Habituo',
-  tagline: 'Detrás del código',
+  tagline: 'Cerca de una mejor versión',
   favicon: 'img/favicon.ico',
   url: 'https://docs.habituo.es',
   baseUrl: '/',
   organizationName: 'habituo',
   projectName: 'documentation',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   i18n: {
     defaultLocale: 'es',
@@ -42,7 +42,7 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         logo: {
-          alt: 'Logotipo de Habituo',
+          alt: 'Logotipo de Habituo App',
           src: 'img/logo.svg',
         },
         items: [

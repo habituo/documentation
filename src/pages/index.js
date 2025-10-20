@@ -3,6 +3,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import HomepagePages from '@site/src/components/HomepagePages';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
@@ -22,12 +23,12 @@ function HomepageHeader() {
           <Link
             className="button button--primary button--lg"
             to="/docs/intro">
-            Obtener la aplicación
+            Ir a la documentación
           </Link>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            Crear cuenta
+            to="/blog">
+            Leer el blog
           </Link>
         </div>
       </div>
@@ -46,6 +47,9 @@ export default function Home() {
       <main>
         <HomepageFeatures />
       </main>
+      <section>
+        <HomepagePages />
+      </section>
     </Layout>
   );
 }
